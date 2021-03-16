@@ -18,12 +18,12 @@ class LoginController extends Controller
 				'Accept' => 'application/json',
 				'Content-type' => 'application/json; charset=UTF-8',
 				'Version' => '2',
-				'X-IG-API-KEY' => 'b4a9b5f64e40e6aa24114a5a8ab2c6456e1b22a3'
+				'X-IG-API-KEY' => ''
 			],
 			'body' => json_encode(
 				[
-					'identifier' => 'danjaboltonTest',
-					'password' => 'Danjabolton1Test'
+					'identifier' => '',
+					'password' => ''
 				]
 			)
 		]);
